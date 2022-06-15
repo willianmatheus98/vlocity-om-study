@@ -78,9 +78,9 @@
     "%vlocity_namespace%__LifecycleStatus__c": "",
     "%vlocity_namespace%__Modification__c": "",
     "%vlocity_namespace%__ObjectTypeId__c": {
-        "%vlocity_namespace%__GlobalKey__c": null,
+        "%vlocity_namespace%__GlobalKey__c": "822150d7ad4289e4b4ae57f40b1286dc",
         "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
-        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/Generated-531026050",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/822150d7ad4289e4b4ae57f40b1286dc",
         "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
     },
     "%vlocity_namespace%__ObjectTypeName__c": "Gateway CFS Spec",

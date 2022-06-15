@@ -78,9 +78,9 @@
     "%vlocity_namespace%__LifecycleStatus__c": "",
     "%vlocity_namespace%__Modification__c": "",
     "%vlocity_namespace%__ObjectTypeId__c": {
-        "%vlocity_namespace%__GlobalKey__c": null,
+        "%vlocity_namespace%__GlobalKey__c": "e3ae6d69faa70b3c4c8bb0f47bd69776",
         "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
-        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/Generated1518337763",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/e3ae6d69faa70b3c4c8bb0f47bd69776",
         "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
     },
     "%vlocity_namespace%__ObjectTypeName__c": "Modem CFS Spec",

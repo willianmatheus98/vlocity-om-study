@@ -1,0 +1,95 @@
+[
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "900f5593-a0c1-50a3-5dcd-40d928f16fff",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/900f5593-a0c1-50a3-5dcd-40d928f16fff",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "d1204904-b899-3dcb-d2da-457cdd19fc03",
+        "%vlocity_namespace%__MappingsData__c": "[{\"source_attr_name\":\"Grade\",\"transform_mappings\":[{\"destination_value\":\"VDSL2+\",\"source_value\":\"Best\"},{\"destination_value\":\"ADSL2+\",\"source_value\":\"Better\"},{\"destination_value\":\"ADSL\",\"source_value\":\"Good\"}],\"mapping_type\":\"list\",\"destination_attr_name\":\"Modem Standard\",\"destination_attr_code\":\"ATT_DC_MS\",\"source_attr_code\":\"ATT_RT_GR\",\"source_type\":\"Attribute\"},{\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Product Code\",\"destination_attr_code\":\"ATT_DC_PC\",\"source_field_name\":\"PricebookEntry.ProductCode\",\"source_type\":\"Field\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "8934e782-219a-9aae-7705-f10603590784",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/8934e782-219a-9aae-7705-f10603590784",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "8934e782-219a-9aae-7705-f10603590784",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "Home Hub Modem -> Installation System Resource",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/Home Hub Modem -> Installation System Resource/Product2/8934e782-219a-9aae-7705-f10603590784"
+    },
+    {
+        "%vlocity_namespace%__ConditionData__c": "{\"type\":\"OR\",\"singleconditions\":[{\"type\":\"SIMPLE\",\"left-side\":\"ATT_RT_GR\",\"left-side-datatype\":\"Picklist\",\"left-side-type\":\"attribute\",\"left-side-category\":\"Internet Services\",\"left-side-name\":\"Grade\",\"op\":\"=\",\"right-side\":\"Good\",\"right-side-type\":\"value\"},{\"type\":\"SIMPLE\",\"left-side\":\"ATT_RT_GR\",\"left-side-datatype\":\"Picklist\",\"left-side-type\":\"attribute\",\"left-side-category\":\"Internet Services\",\"left-side-name\":\"Grade\",\"op\":\"=\",\"right-side\":\"Better\",\"right-side-type\":\"value\"}]}",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "05469edc-157b-0470-5712-ebe4fe6e83cb",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/05469edc-157b-0470-5712-ebe4fe6e83cb",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "181559a3-d5b1-87ad-79d7-b05459bbfc2a",
+        "%vlocity_namespace%__MappingsData__c": "[{\"value\":\"G.992.3;G.992.5\",\"mapping_type\":\"static\",\"destination_attr_name\":\"Modem Standard\",\"destination_attr_code\":\"ATT_DC_MS\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "8934e782-219a-9aae-7705-f10603590784",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/8934e782-219a-9aae-7705-f10603590784",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "8934e782-219a-9aae-7705-f10603590784",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "Home Hub Modem -> Home Hub 2000 CFS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/Home Hub Modem -> Home Hub 2000 CFS/Product2/8934e782-219a-9aae-7705-f10603590784"
+    },
+    {
+        "%vlocity_namespace%__ConditionData__c": "{\"type\":\"SIMPLE\",\"left-side\":\"ATT_RT_GR\",\"left-side-name\":\"Grade\",\"left-side-type\":\"attribute\",\"left-side-category\":\"Internet Services\",\"left-side-datatype\":\"Picklist\",\"op\":\"=\",\"right-side\":\"Best\"}",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "a037cd3f-a95d-573e-f9cd-c830485b12ce",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/a037cd3f-a95d-573e-f9cd-c830485b12ce",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "fe3464fd-6d88-b038-1fa1-128ec2bc47a0",
+        "%vlocity_namespace%__MappingsData__c": "[{\"value\":\"G.993.2\",\"mapping_type\":\"static\",\"destination_attr_name\":\"Modem Standard\",\"destination_attr_code\":\"ATT_DC_MS\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "8934e782-219a-9aae-7705-f10603590784",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/8934e782-219a-9aae-7705-f10603590784",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "8934e782-219a-9aae-7705-f10603590784",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "Home Hub Modem -> Home Hub 3000 CFS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/Home Hub Modem -> Home Hub 3000 CFS/Product2/8934e782-219a-9aae-7705-f10603590784"
+    }
+]

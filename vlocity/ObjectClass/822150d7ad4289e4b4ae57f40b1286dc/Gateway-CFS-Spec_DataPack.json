@@ -1,0 +1,37 @@
+{
+    "%vlocity_namespace%__EffectiveFromDate__c": "2022-06-14",
+    "%vlocity_namespace%__EffectiveUntilDate__c": "",
+    "%vlocity_namespace%__GlobalGroupKey__c": "f3bb9eb5-230a-0834-a852-92252e24e768",
+    "%vlocity_namespace%__GlobalKey__c": "822150d7ad4289e4b4ae57f40b1286dc",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsVirtual__c": false,
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__Mode__c": "",
+    "%vlocity_namespace%__ObjectApiName__c": "Product2",
+    "%vlocity_namespace%__ObjectFieldAttribute__c": "Gateway-CFS-Spec_ObjectFieldAttributes.json",
+    "%vlocity_namespace%__ParentObjectClassId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "d8e9670e70a95a4ad38bdbac1c201471",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/d8e9670e70a95a4ad38bdbac1c201471",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+    },
+    "%vlocity_namespace%__RecordTypeName__c": "",
+    "%vlocity_namespace%__RootObjectClassId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "63ba6ae5f8c257f7cdccc385d2a85dca",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/63ba6ae5f8c257f7cdccc385d2a85dca",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+    },
+    "%vlocity_namespace%__VersionLabel__c": "",
+    "Name": "Gateway CFS Spec",
+    "RecordTypeId": {
+        "DeveloperName": "ObjectType",
+        "SobjectType": "%vlocity_namespace%__ObjectClass__c",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/%vlocity_namespace%__ObjectClass__c/ObjectType",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/822150d7ad4289e4b4ae57f40b1286dc"
+}
