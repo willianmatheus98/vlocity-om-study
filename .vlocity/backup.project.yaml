@@ -1,0 +1,10 @@
+Name: backup
+ignoreDependencies: false
+VlocityDataPackKeys:
+    - Product2/457c967d-cd90-aa70-0e7b-b4d9fd75072c
+    - Product2/5a66b53e-725c-8e18-97ab-8e377172ba27
+    - Product2/05469edc-157b-0470-5712-ebe4fe6e83cb
+    - Product2/a037cd3f-a95d-573e-f9cd-c830485b12ce
+VlocityTypesToFetch:
+    - Product2
+SalesforceTypesToFetch:
